@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --linearGredient : linear-gradient(to Right , #7e24fe ,#5338f9) ;
+}
+
+body{
+    background-color: #f9fafc;
+}
+
+/* ---------------- NAVBAR ---------------- */
+
+.nav-custom {
+    border-bottom: 1px solid #eee;
+}
+
+.logo-icon {
+    width: 50px;
+    height: 50px;
+    background: var(--linearGredient);
+}
+
+.navbar button,
+.modal-footer .Savebtn{
+    background: var(--linearGredient);
+    transition: all .3s ease;
+}
+
+.navbar button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px  #aba0f5;
+}
+
+
+
+.logo-icon i {
+    font-size: 18px;
+}
+
+.navbar-brand h5 {
+    font-size: 18px;
+}
+
+.navbar-brand p {
+    font-size: 12px;
+    color: #6c6c6c;
+}
+
+/* Right icons */
+.nav-icons i {
+    cursor: pointer;
+    transition: 0.2s;
+    color: gray;
+}
+
+
+/* Profile image */
+.profile-img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* end of navvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+
+
+/* modal */
+.modal-footer > button{
+    width: 45%;
+}
+
+
+
+.person {
+    width: 96px;
+    height: 96px;
+    background-color: #3D8FFF;
+}
+
+
+/* end modal */
+/* f-sec */
+.FSecIcon{
+    width: 42px;
+    height: 42px;
+}
+
+.fSecCols{
+    transition: all .3s ease;
+    box-shadow: 1px 1px 5px #ece9e9;
+}
+
+.fSecCols:hover{
+    box-shadow: 1px 1px 8px #c0bcbc;
+    cursor: pointer;
+}
+
+ .search-box{
+      border-radius:16px;
+      padding:14px 18px;
+    }
+    .contact-card{
+      border-radius:18px;
+      border:none;
+      box-shadow:0 12px 30px rgba(0,0,0,.06);
+    }
+
+    .lClass{
+        width: 20%;
+    }
+    .icon-box{
+      width:38px;
+      height:38px;
+      border-radius:12px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .side-card{
+      border-radius:18px;
+      border:none;
+      box-shadow:0 12px 30px rgba(0,0,0,.06);
+    }
+
+
+.card{
+    transition: all .3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    
+}
+
+.badge-icon{
+    left: 75%;
+    font-size: 12px;
+}
+
+.badge-heart{
+    bottom: 30%;
+}
+
+
+.action-buttons-right .favorite,
+.emergency,
+.delete,
+.edit{
+    transition: all .2s ease;
+}
+
+.action-buttons-right .favorite:hover i{
+    color:rgb(154, 154, 18);
+}
+
+.action-buttons-right .emergency:hover i ,
+.action-buttons-right .delete:hover i{
+    color:rgb(215, 13, 13);
+}
+
+.action-buttons-right .edit:hover i{
+    color: blue;
+}
+
+
+
+.badge-work{
+    background-color: rgb(168, 128, 168);
+    color: purple;
+}
+
+
+
+.contact-item {
+  background-color: #f9fafb;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.contact-item:hover {
+  background-color: #fef3c788;
+}
+
+/* Avatar */
+.contact-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Call button */
+.call-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background-color: #d1fae5;
+  color: #059669;
+  transition: all 0.25s ease;
+  text-decoration: none;
+}
+
+.contact-item:hover .call-btn {
+  background-color: #10b981;
+  color: #fff;
+}
+
+.call-btn i {
+  font-size: 12px;
+}
+
+.contact-item-emergency {
+  background-color: #f9fafb;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.contact-item-emergency:hover {
+  background-color: #fff1f2;
+}
+
+/* Call button base */
+.call-btn-emergency {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+  text-decoration: none;
+}
+
+/* Rose variant */
+.call-btn-rose {
+  background-color: #ffe4e6;
+  color: #e11d48;
+}
+
+.contact-item-emergency:hover .call-btn-rose {
+  background-color: #f43f5e;
+  color: #fff;
+}
+
+.call-btn-emergency i {
+  font-size: 12px;
+}
+
+.swal-container {
+  z-index: 9999 !important;
+}
